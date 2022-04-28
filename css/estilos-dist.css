@@ -1,0 +1,102 @@
+/*
+  MATERIAL:
+
+  RESPONSIVE
+
+- Mobile: 375px
+- Desktop: 1440px
+
+  COLORS
+
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Pale Blue: hsl(207, 100%, 98%)
+
+  TYPOGRAPHY
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 700
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 600, 700
+  ICONS
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/)
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+:root{
+  --bg-body: hsl(207, 100%, 98%);
+  --button: hsl(322, 100%, 66%);
+  --icon-nav: hsl(321, 100%, 78%);
+  --bg-footer: hsl(192, 100%, 9%);
+
+}
+
+/* ALL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  /* font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif; */
+}
+
+/* Mobile First < 375px */
+
+/* NAV */
+.nav__container{
+  margin: 40px 20px 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo{
+  width: 150px;
+  height: 25px;
+}
+.nav__link{
+  padding: 7px 25px;
+  color: var(--icon-nav);
+  font-family: 'Open Sans', sans-serif;
+  font-size: .95rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid var(--icon-nav);
+  border-radius: 20px;
+}
+
+/* MAIN */
+.main__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.header__container{
+
+}
+.header__title{
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+  background-color: hsl(192, 100%, 9%);
+}
